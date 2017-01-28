@@ -65,6 +65,7 @@ label {
 
 .section-lead {
     color:#E3B505;
+    font-size:1.4em;
 }
 
 .text-bold {
@@ -146,9 +147,9 @@ hr {
 /**SECTION SIGNUP **/
 
 
-.signup-bg {
-    background-image:url("/img/bg.jpg");
-    background-attachment: fixed;
+.register-bg {
+    background-image:url("../img/yellow-bg.png");
+    padding-top:60px;
     color:white;
 }
 
@@ -171,7 +172,7 @@ hr {
 }
 
 .about-bg .icon {
-    font-size:6em;
+    font-size:5em;
     color:#E3B505;
 }
 
