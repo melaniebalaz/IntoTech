@@ -102,7 +102,17 @@ label {
 }
 
 
-/**BUTTON**/
+/**
+QUOTE BG
+ **/
+
+.quote-bg {
+    background: url("../img/quote-bg.png") top;
+    padding-top:100px;
+    padding-bottom:40px;
+}
+
+/**HR**/
 
 
 hr {
