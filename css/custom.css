@@ -65,7 +65,7 @@ label {
 
 .section-lead {
     color:#E3B505;
-    font-size:1.4em;
+    font-size:1.5em;
 }
 
 .text-bold {
@@ -117,7 +117,7 @@ QUOTE BG
 
 
 hr {
-    border-top: 2px solid #CDCCC7;
+    border-top: 2px solid #E3B505;
     width:100px;
 }
 
