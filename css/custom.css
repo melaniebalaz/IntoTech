@@ -1,0 +1,202 @@
+body h1,h2,h3,h4{
+    font-family: 'Righteous', cursive;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+blockquote {
+    font-size:2em;
+    color:#E3B505;
+    border:none;
+    padding-top:30px;
+}
+
+.modal p{
+    color:#045A95;
+}
+
+
+
+.btn-lg {
+    color:#045A95;
+    background-color:#F1C40F;
+    -webkit-box-shadow: inset 0 -3px #e2b607;
+    box-shadow: inset 0 -3px #e2b607;
+}
+
+
+.btn-lg:hover {
+    color:white;
+}
+
+.padding-style{
+    padding:30px;
+}
+
+.container-fluid {
+    padding-bottom:20px;
+}
+
+.container {
+    padding-top:20px;
+    width:70%;
+}
+
+label {
+    font-weight:normal;
+}
+
+
+.social-media-icons {
+    font-size:2.0em;
+}
+
+/**TEXT STYLES**/
+
+.text-yellow{
+    color:#E3B505;
+}
+
+.section-lead {
+    color:#E3B505;
+}
+
+.text-bold {
+    color:black;
+    font-weight:500;
+    font-size:1.2em;
+}
+
+.intro-heading {
+    font-family: 'Righteous', cursive;
+    text-shadow: 0 0 15px #000000;
+    font-size: 3.5em;
+    line-height: 75px;
+    margin-bottom: 25px;
+    text-transform: none;
+    color:white;
+}
+
+.intro-lead-in-bigger {
+    font-size: 1.7em;
+}
+
+.intro-lead-in {
+    text-shadow: 0 0 15px #000000;
+    letter-spacing:0.2em;
+    font-size: 1.6em;
+    line-height: 20px;
+    margin-bottom: 60px;
+    color:#DDEAF0;
+}
+
+.intro-subtext {
+    font-size:1.6em;
+    color:white;
+}
+
+
+/**BUTTON**/
+
+
+hr {
+    border-top: 2px solid #CDCCC7;
+    width:100px;
+}
+
+/**HEADER SECTION**/
+
+.image-bg-fluid-height {
+    padding-top:150px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color:#045896;
+    height: 100vh;
+}
+
+.home-bg{
+    background: #045896 url("../img/bg.jpg") top center no-repeat fixed;
+}
+
+
+.intro-header-icons a{
+    color:white;
+}
+
+.intro-header-icons a:hover{
+    color:#E3B505;
+}
+
+/**SECTION SIGNUP **/
+
+
+.signup-bg {
+    background-image:url("/img/bg.jpg");
+    background-attachment: fixed;
+    color:white;
+}
+
+.section-paragraph {
+    font-size: 1.5em;
+}
+
+.section-heading {
+    font-size:2.7em;
+}
+
+.section-heading-blue {
+    color:#3A4148;
+}
+
+/**SECTION ABOUT **/
+
+.about-bg {
+    background-color:white;
+}
+
+.about-bg .icon {
+    font-size:6em;
+    color:#E3B505;
+}
+
+.glasses-icon {
+    width:50px;
+    height:auto;
+}
+
+.icon-subtext {
+    font-size:1.4em;
+    font-weight:lighter;
+}
+
+
+/**FOOTER**/
+
+footer {
+    position: relative;
+    bottom:0;
+    margin:0;
+    padding:20px;
+    background-color:#333333;
+    color:lightgray;
+    font-size:1.1em;
+}
+
+footer a {
+    color:white;
+}
+
+footer a:hover {
+    color:#E3B505;
+    text-decoration:none;
+}
+
+footer h2 {
+    font-size:1.6em;
+}
