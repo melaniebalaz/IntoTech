@@ -43,7 +43,7 @@ blockquote {
     padding-bottom:20px;
 }
 
-.container {
+.container-small {
     padding-top:20px;
     width:70%;
 }
@@ -103,6 +103,13 @@ label {
 }
 
 
+/** VISION BG **/
+
+.yellow-bg {
+    background: #E3B505;
+    color:white;
+}
+
 /**
 QUOTE BG
  **/
@@ -125,6 +132,7 @@ hr {
 
 .image-bg-fluid-height {
     padding-top:150px;
+    max-height:665px;
     background-position: top center;
     background-repeat: no-repeat;
     background-color:#045896;
@@ -150,7 +158,7 @@ hr {
 .register-bg {
     background-image:url("../img/yellow-bg.png");
     padding-top:60px;
-    color:white;
+    color:#045896;
 }
 
 .section-paragraph {
