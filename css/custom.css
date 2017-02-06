@@ -69,6 +69,7 @@ label {
     color:#E3B505;
 }
 
+
 .section-lead {
     color:#E3B505;
     font-size:1.8em;
@@ -107,11 +108,11 @@ label {
 
 
 
-/** VISION BG **/
+/** SPEAKERS CALL BG **/
 
 .yellow-bg {
     background: #E3B505;
-    color:white;
+    color:#106095;
 }
 
 /**
@@ -148,7 +149,6 @@ hr {
 /**HEADER SECTION**/
 
 .image-bg-fluid-height {
-    padding-top:150px;
     background-position: top center;
     background-repeat: no-repeat;
     background-color:#045896;
