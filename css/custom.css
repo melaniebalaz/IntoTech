@@ -90,14 +90,11 @@ label {
     color:white;
 }
 
-.intro-lead-in-bigger {
-    font-size: 1.5em;
-}
 
 .intro-lead-in {
     text-shadow: 0 0 15px #000000;
     letter-spacing:0.2em;
-    font-size: 1.6em;
+    font-size: 1.8em;
     line-height: 20px;
     margin-bottom: 60px;
     color:#DDEAF0;
@@ -131,6 +128,13 @@ QUOTE BG
 
 .vision-container {
     border: solid 1px #E3B505;
+    color:#E3B505;
+}
+
+.vision-bg {
+    background: #045896 url("../img/bg.jpg") top no-repeat fixed;
+    padding-top:100px;
+    padding-bottom:100px;
 }
 
 /**HR**/
