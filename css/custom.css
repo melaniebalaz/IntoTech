@@ -157,6 +157,7 @@ hr {
 
 .home-bg{
     background: #045896 url("../img/talk-bg.png") top center no-repeat fixed;
+    max-height:1149px;
 }
 
 
@@ -218,6 +219,10 @@ hr {
 
 
 /**FOOTER**/
+
+.footer-text {
+    font-size:1.3em;
+}
 
 footer {
     position: relative;
