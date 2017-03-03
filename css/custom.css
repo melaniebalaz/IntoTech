@@ -70,6 +70,9 @@ label {
     color:#E3B505;
 }
 
+.text-grey {
+    color:#333333;
+}
 
 .section-lead {
     color:#E3B505;
@@ -109,12 +112,29 @@ label {
 
 
 
+
 /** SPEAKERS CALL BG **/
 
 .yellow-bg {
     background: #E3B505;
     color:#106095;
 }
+
+/**SPONSOR SECTION **/
+
+.sponsor-bg {
+    color:#E3B505;
+}
+
+.partner-logo {
+    width:200px;
+    height:auto;
+}
+
+
+/**LOGOS **/
+
+
 
 /**
 QUOTE BG
