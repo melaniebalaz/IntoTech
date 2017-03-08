@@ -112,6 +112,16 @@ label {
 
 
 
+/**NAVBAR **/
+
+.navbar-transparent {
+    background:transparent;
+    position: absolute;
+    top:0;
+    color:white;
+}
+
+
 
 /** SPEAKERS CALL BG **/
 
