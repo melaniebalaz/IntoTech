@@ -110,7 +110,20 @@ label {
     color:white;
 }
 
+/**NAVBAR
+ */
 
+
+.navbar-color a{
+    color:#E3B505;
+    letter-spacing:0.2em;
+    font-size:1.2em;
+}
+
+.navbar-color a:hover {
+    color:white;
+    font-size:1.2em;
+}
 
 
 /** SPEAKERS CALL BG **/
