@@ -125,6 +125,14 @@ label {
     font-size:1.2em;
 }
 
+/**NAVBAR **/
+
+.navbar-transparent {
+    background:transparent;
+    position: absolute;
+    top:0;
+    color:white;
+}
 
 /** SPEAKERS CALL BG **/
 
