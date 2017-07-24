@@ -9,4 +9,18 @@ $( document ).ready(function() {
       //css("background-color", "transparent"); // if not, change it back to transparent
     }
   });
+
+  var menu_holder =  $('.navbar-nav');
+ var section_elements =  $('section');
+ $(window).on('scroll', function() { // check if scroll event happened
+   var scrollTop = $(window).scrollTop();
+   menu_holder.find('a').removeClass('active');
+   $(section_elements.get().reverse()).each(function() {
+     if($(this).position().top < scrollTop) {
+       var link =  menu_holder.find('[href="#' + $(this).attr('id') + '"]');
+       link.addClass('active');
+       return false;
+     }
+   })
+ });
 });
