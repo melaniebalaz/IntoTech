@@ -264,6 +264,12 @@ hr {
     color:#3A4148;
 }
 
+/** SECTION PRESENTERS **/
+
+#presenters {
+  background-image:url("../img/white-bg.png");
+}
+
 /**SECTION ABOUT **/
 
 .about-bg {
