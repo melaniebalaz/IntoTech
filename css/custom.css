@@ -301,6 +301,12 @@ hr {
     font-weight:lighter;
 }
 
+/** FAQ PAGE **/
+
+#faq {
+  background-color:#105D91;
+  color:white;
+}
 
 /**FOOTER**/
 
