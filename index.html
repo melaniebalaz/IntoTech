@@ -70,6 +70,9 @@
             <a class="nav-link page-scroll" href="#register">REGISTRATION</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link page-scroll" href="#location">LOCATION</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link page-scroll" href="#partners">SPONSORS</a>
           </li>
           <li class="nav-item">
@@ -289,6 +292,32 @@
             </blockquote>
         </div>
     </div>
+
+    <section class="container-fluid" id="location">
+      <div class="container container-small text-center">
+          <h1 class="section-heading">The Location</h1>
+          <p class="section-paragraph">
+              IntoTech will take place at the <a href="https://vienna.impacthub.net/"> ImpactHub Vienna </a> at Lindengasse 56, 1070 Vienna.
+          </p>
+          <div id="map"></div>
+          <script>
+            function initMap() {
+              var uluru = {lat: 48.199576, lng: 16.345877};
+              var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 19,
+                center: uluru
+              });
+              var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+              });
+            }
+          </script>
+          <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6edIyurU-Jkpub6qH-yGDquWjot-E1Tk&callback=initMap">
+          </script>
+      </div>
+    </section>
 
     <section class="container-fluid sponsor-bg" id="partners">
         <div class="container text-center">
