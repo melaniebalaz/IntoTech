@@ -174,9 +174,14 @@ label {
   padding-top:5%;
 }
 
+.presenter:hover {
+  cursor:pointer;
+  color:#E3B505;
+}
+
 .presentation-title {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.6em;
 }
 
 .presentation-title:hover {
@@ -196,7 +201,7 @@ label {
 
 .presentation-description {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
 
 .presenter-img {
