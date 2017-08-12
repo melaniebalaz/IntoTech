@@ -141,7 +141,7 @@ label {
      border-color: white;
  }
 
-.collapse {
+.navbar .collapse {
   background-color:#E3B505;
   padding-left:6px;
 }
@@ -175,13 +175,33 @@ label {
 }
 
 .presentation-title {
-  font-size: 1.6em;
-  padding:3%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+}
+
+.presentation-title:hover {
+  color:#E3B505;
+}
+
+#presenters .row {
+  padding-bottom:2%;
+}
+.card {
+  background-color:transparent;
+  border-left:none;
+  border-right:none;
+  border-bottom:none;
+  border-top:1px solid #E3B505;
+}
+
+.presentation-description {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4em;
 }
 
 .presenter-img {
   border-radius:50%;
-
+  width:50%;
 }
 
 /** MAP **/
