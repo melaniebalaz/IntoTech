@@ -12,6 +12,8 @@
     <meta name="description" content="IntoTech conference">
     <meta name="author" content="Melanie Balaz">
 
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="IntoTech is the tech-conference for starting your journey into technology, meeting the community and getting inspired." />
     <meta property="og:image" content="https://into.technology/img/fb_logo.png"/>
     <meta property="og:title" content="IntoTech"/>
     <meta property="og:url" content="https://into.technology"/>
@@ -31,18 +33,47 @@
 
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
-<!--
     <script type="application/ld+json">
-      {
-        "@context": "http://schema.org",
-        "@type": "Event",
-        "name": "IntoTech Conference",
-        "description": "IntoTech is the tech-conference for starting your journey into technology, meeting the community and getting inspired.",
-        "startDate": "2017-09-11",
-        "location": "Vienna, Vienna, Austria"
-      }
-      </script>
-    -->
+        {
+          "@context": "http://schema.org",
+          "@type": "Event",
+          "name": "IntoTech Conference",
+          "description": "IntoTech is the tech-conference for starting your journey into technology, meeting the community and getting inspired.",
+          "startDate": "2017-11-11",
+          "endDate": "2017-11-11",
+          "location": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Vienna",
+              "addressRegion": "AT",
+              "postalCode": "1070",
+              "streetAddress": "Lindengasse 56"
+            },
+            "name": "Impact Hub Vienna"
+          },
+          "image": "https://into.technology/img/fb_logo.png",
+          "offers": {
+            "@type": "Offer",
+            "price": "0.00",
+            "priceCurrency": "EUR"
+          }
+        }
+    </script>
+
+    <meta http-equiv="cleartype" content="on" />
+    <meta name="skype_toolbar" content="skype_toolbar_parser_compatible" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="application-name" content="The IntoTech Conference" />
+    <meta name="msapplication-starturl" content="/" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="theme-color" content="#63bc46" />
+    <meta name="msapplication-navbutton-color" content="#106095" />
+    <meta name="msapplication-TileColor" content="#106095" />
+    <meta name="msapplication-TileImage" content="https://into.technology/img/fb_logo.png" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 </head>
 
 <body>
@@ -333,7 +364,7 @@
           </div>
         </div>
         <br/>
-        <a class="presenter-sm" href="https://twitter.com/_tcbyrd"><i class="fa fa-twitter" aria-hidden="true"></i></i>
+        <a class="presenter-sm" href="https://twitter.com/_tcbyrd"><i class="fa fa-twitter" aria-hidden="true"></i>
          </a>
 
       </div>
@@ -364,7 +395,7 @@
           </div>
         </div>
         <br/>
-        <a class="presenter-sm" href="https://lemmings.io/"><i class="fa fa-home" aria-hidden="true"></i></i>
+        <a class="presenter-sm" href="https://lemmings.io/"><i class="fa fa-home" aria-hidden="true"></i>
          </a>
          <a class="presenter-sm" href="https://www.facebook.com/lemmings.io/"><i class="fa fa-facebook-square" aria-hidden="true"></i>
           </a>
@@ -379,9 +410,17 @@
         <img class="img-responsive center-block presenter-img" src="img/presenters/eva.png">
       </div>
       <div class="col-md-7 text-left">
-        <h2 class="presenter">
+        <h2 class="presenter" data-toggle="collapse" href="#evaBio" aria-expanded="false" aria-controls="evaBio">
           Eva Lettner
         </h2>
+          <div class="collapse" id="evaBio">
+              <div class="card card-block">
+                  <p class="presentation-description text-justify">
+                      Eva is a frontend developer by day and a coding artist by night, where she loves to play with CSS and animations. She is secretly obsessed with tea and
+                      her patronus is a porcupine.
+                  </p>
+              </div>
+          </div>
         <a class="presentation-title" data-toggle="collapse" href="#evaTalk" aria-expanded="false" aria-controls="evaTalk">
           CSS Transitions and Animations
         </a>
@@ -393,6 +432,11 @@
           </p>
           </div>
         </div>
+          <br/>
+          <a class="presenter-sm" href="https://twitter.com/eva_trostlos"><i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a class="presenter-sm" href="https://codepen.io/eva_trostlos"><i class="fa fa-codepen" aria-hidden="true"></i>
+          </a>
       </div>
     </div>
     <div class="row">
@@ -449,21 +493,31 @@
     </section>
 
     <section class="container-fluid yellow-bg" id="communities">
-        <div class="container container-small text-center">
+        <div class="container text-center">
             <h1 class="section-heading">Communities</h1>
             <p class="section-paragraph">
               At IntoTech we want to give you the chance to directly connect to local tech communities,
               so you know where to go after the conference and continue your journey into technology.
               We asked tech communities to join our event and present their projects and spaces to you.
             </p>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                <a href="http://botshub.org/">
-                    <img class="community-logo" src="img/communities/botshub.png">
-                </a>
+            <div class="row">
+                <div class="col-md-3">
+                    <a target="_blank" rel="noreferrer" href="http://botshub.org/">
+                        <img class="community-logo" onmouseover="this.src='img/communities/botshub.png'" onmouseout="this.src='img/communities/botshub-highlight.png'" src="img/communities/botshub-highlight.png">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a target="_blank" rel="noreferrer" href="https://vienna.impacthub.net/">
+                        <img class="community-logo" onmouseover="this.src='img/communities/impacthub.png'" onmouseout="this.src='img/communities/impacthub-highlight.png'" src="img/communities/impacthub-highlight.png">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a target="_blank" rel="noreferrer" href="http://www.happylab.at/en_vie/home">
+                        <img class="community-logo" onmouseover="this.src='img/communities/happylab.png'" onmouseout="this.src='img/communities/happylab-highlight.png'" src="img/communities/happylab-highlight.png">
+                    </a>
+                </div>
             </div>
-        </div>
+          </div>
       </div>
     </section>
 
@@ -472,7 +526,7 @@
             <h1 class="section-heading">How can I register?</h1>
             <p class="section-paragraph">
                 Registration will open in Autumn 2017.
-                You can follow us on <a href="https://www.facebook.com/intotechconf"> facebook </a> or <a href="https://twitter.com/intotechconf"> twitter </a>  where we will release any news.
+                You can follow us on <a target="_blank" rel="noreferrer" href="https://www.facebook.com/intotechconf"> facebook </a> or <a target="_blank" rel="noreferrer" href="https://twitter.com/intotechconf"> twitter </a>  where we will release any news.
             </p>
         </div>
     </section>
@@ -493,7 +547,7 @@
       <div class="container container-small text-center">
           <h1 class="section-heading">The Location</h1>
           <p class="section-paragraph">
-              IntoTech will take place at the <a href="https://vienna.impacthub.net/"> ImpactHub Vienna </a> at Lindengasse 56, 1070 Vienna.
+              IntoTech will take place at the <a target="_blank" rel="noreferrer" href="https://vienna.impacthub.net/"> ImpactHub Vienna </a> at Lindengasse 56, 1070 Vienna.
           </p>
           <div id="map"></div>
           <script>
@@ -537,31 +591,41 @@
             <div class="col-md-4">
             </div>
             <div class="col-md-4">
-                <a href="https://github.com">
+                <a target="_blank" rel="noreferrer" href="https://github.com">
                     <img class="partner-logo" src="img/partners/git.png">
                 </a>
             </div>
           </div>
           <h2> Partners </h2>
           <div class="row">
-              <div class="col-md-3">
-                  <a href="https://www.oeh.ac.at">
+              <div class="col-md-2">
+                  <a target="_blank" rel="noreferrer" href="https://www.oeh.ac.at">
                       <img class="partner-logo" onmouseover="this.src='img/partners/oh.png'" onmouseout="this.src='img/partners/oh-light.png'" src="img/partners/oh-light.png">
                   </a>
               </div>
-              <div class="col-md-3">
-                  <a href="https://refactor.zone/">
+              <div class="col-md-2">
+                  <a target="_blank" rel="noreferrer" href="https://refactor.zone/">
                       <img class="partner-logo" onmouseover="this.src='img/partners/refactor.png'" onmouseout="this.src='img/partners/refactor-light.png'" src="img/partners/refactor-light.png">
                   </a>
               </div>
-              <div class="col-md-3">
-                  <a href="https://www.opsbears.com/">
+              <div class="col-md-2">
+                  <a target="_blank" rel="noreferrer" href="https://www.opsbears.com/">
                       <img class="partner-logo" onmouseover="this.src='img/partners/opsbears.png'" onmouseout="this.src='img/partners/opsbears-light.png'" src="img/partners/opsbears-light.png">
                   </a>
               </div>
-              <div class="col-md-3">
-                  <a href="https://www.eureprojekte.at">
+              <div class="col-md-2">
+                  <a target="_blank" rel="noreferrer" href="https://www.eureprojekte.at">
                       <img class="partner-logo" onmouseover="this.src='img/partners/eureprojekte.png'" onmouseout="this.src='img/partners/eureprojekte-light.png'" src="img/partners/eureprojekte-light.png">
+                  </a>
+              </div>
+              <div class="col-md-2">
+                  <a target="_blank" rel="noreferrer" href="https://www.stroeck.at/">
+                      <img class="partner-logo" onmouseover="this.src='img/partners/stroeck.png'" onmouseout="this.src='img/partners/stroeck-light.png'" src="img/partners/stroeck-light.png">
+                  </a>
+              </div>
+              <div class="col-md-2">
+                  <a target="_blank" rel="noreferrer" href="https://craftunique.com/">
+                      <img class="partner-logo" onmouseover="this.src='img/partners/craftBot.png'" onmouseout="this.src='img/partners/craftBot-light.png'" src="img/partners/craftBot-light.png">
                   </a>
               </div>
           </div>

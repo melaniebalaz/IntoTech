@@ -150,7 +150,7 @@ label {
 
 .yellow-bg {
     background: #E3B505;
-    color:#106095;
+    color:white;
 }
 
 /**SPONSOR SECTION **/
@@ -227,7 +227,7 @@ label {
 /**COMMUNITY SECTION **/
 
 .community-logo {
-  width:50%;
+  width:70%;
   height:auto;
 }
 
