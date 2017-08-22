@@ -224,9 +224,12 @@ label {
 }
 
 
-/**LOGOS **/
+/**COMMUNITY SECTION **/
 
-
+.community-logo {
+  width:50%;
+  height:auto;
+}
 
 /**
 QUOTE BG
