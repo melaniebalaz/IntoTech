@@ -30,6 +30,7 @@ blockquote {
 
 
 .btn-lg {
+    font-size:1.7em;
     color:#045A95;
     background-color:#F1C40F;
     -webkit-box-shadow: inset 0 -3px #e2b607;
@@ -241,6 +242,26 @@ QUOTE BG
     padding-bottom:40px;
 }
 
+/** TEAM **/
+
+#team {
+  background: url("../img/teambg.png") top;
+  color:white;
+  padding-top:100px;
+}
+
+.team-img {
+  border-radius:50%;
+}
+
+.teammember {
+  padding-top:5%;
+  font-size:2.0em;
+}
+
+.teammembers {
+  padding-top:10%;
+}
 /**VISION **/
 
 .vision-container {
