@@ -53,7 +53,7 @@ blockquote {
 
 .container-small {
     padding-top:20px;
-    width:70%;
+    width:80%;
 }
 
 label {
@@ -226,11 +226,6 @@ label {
 
 
 /**COMMUNITY SECTION **/
-
-.community-logo {
-  width:70%;
-  height:auto;
-}
 
 /**
 QUOTE BG
