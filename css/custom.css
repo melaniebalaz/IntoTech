@@ -410,3 +410,11 @@ footer a:hover {
 footer h2 {
     font-size:1.6em;
 }
+
+[data-toggle="collapse"].presenter:after,[data-toggle="collapse"].presentation-title:after{
+    content: "\25BE";
+}
+
+[data-toggle="collapse"].presenter.collapsed:after,[data-toggle="collapse"].presentation-title.collapsed:after {
+    content: "\25B8";
+}
