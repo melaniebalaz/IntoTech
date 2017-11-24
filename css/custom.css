@@ -16,6 +16,15 @@ a:focus {
     text-decoration: none;
 }
 
+.white-link {
+  color:white;
+}
+
+.white-link:hover {
+  text-decoration: underline;
+  color:white;
+}
+
 blockquote {
     font-size:2em;
     color:#E3B505;
@@ -25,15 +34,6 @@ blockquote {
 
 .modal p{
     color:#045A95;
-}
-
-.white-link {
-  color:white;
-}
-
-.white-link:hover {
-  text-decoration: underline;
-  color:white;
 }
 
 .btn-lg {
