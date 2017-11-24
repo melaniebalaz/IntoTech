@@ -27,7 +27,14 @@ blockquote {
     color:#045A95;
 }
 
+.white-link {
+  color:white;
+}
 
+.white-link:hover {
+  text-decoration: underline;
+  color:white;
+}
 
 .btn-lg {
     font-size:1.5em;
